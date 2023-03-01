@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+html {
+   scroll-behavior: smooth;
+}
+
+header {
+   position: sticky;
+   top: 0;
+   margin: 5px;
+   border: 2px solid black;
+}
+
+p {
+    width: 100%;
+    padding: 10px;
+   }
+
+img {
+   border: 2px solid black;
+   width: 100px;
+   margin-top: 5px;
+}
+
+section#persona {
+   background-color: lightgrey;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+section#experiencia {
+    display: flex;
+    border: 5px solid blue;
+    margin: 5px;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+ }
+
+section#education {
+    display: flex;
+    border: 5px solid blue;
+    margin: 5px;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+ }
+
+section#skills {
+    display: flex;
+    border: 5px solid blue;
+    margin: 5px;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+ }
+
+section#contact {
+    display: flex;
+    border: 5px solid blue;
+    margin: 5px;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+ }
+
+ #cargo {
+    color:blue;
+ }
+
+ .experience-detail {
+    padding-left: 157px;
+    padding-top: 10px;
+ }
+
+ .education-detail {
+    padding-left: 200px;
+ }
+
+ .skills-detail {
+    padding-left: 95px;
+ }
+
+ .contact-detail {
+    padding-left: 40px;
+ }
+
+ .activities-detail {
+    padding-left: 50px;
+ }
+
+ .inputcontacto {
+   width: 300px;
+   height: 30px;
+   font-style: oblique;
+   
+ }
+
+ textarea {
+   resize: none;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+ }
+
+ button {
+   margin-left: 40px;
+ }
+ 
+/*
+Esto es un comentario dentro de un documento de CSS
+*/
