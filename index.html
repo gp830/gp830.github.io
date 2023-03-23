@@ -3,142 +3,240 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto Final</title>
-    <link rel="stylesheet" type="text/css" href="estilos.css" />
+    <link rel="stylesheet" href="estilos.css">
+    <title>CV GABRIEL PEREZ</title>
 </head>
 <body>
-    <header>
-        <section id="persona">
-            <img src="fotocv.png" alt="Foto de Perfil">
-            <h1>GABRIEL ALEJANDRO PEREZ GONZALEZ</h1>
-            <h2>INDUSTRIAL ENGINEER</h2>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="http://www.linkedin.com/in/gabriel-perez-7a59b610b/"> Ver Perfil de LinkedIn</a>
-                    </li>
-                     <li>
-                        <a href="#contact"> Contacto</a>
-                    </li>   
-                </ul>
-            </nav>
-        </section>
-        
-    </header>
-
-    <main>
-
-        <section id="experiencia">
-            <h2>PROFESSIONAL EXPERIENCE</h2>
-            <div class="experience-list">
-
-                <div class="experience-detail">
-                    <h3 id="cargo">PROJECT MANAGER</h3>
-                    <p>SUPPLY, INSTALLATION AND COMMISSIONING OF WIND RESOURCE MEASURING TOWERS, CONSTRUCTION OF INDUSTRIAL FURNACE, COLD SEPARATOR, WATER COLUMN, HDS REACTOR FOR OIL & GAS INDUSTRY. TURBINE AND GENERATOR SUPPLY FOR YACYRETA HYDROELECTRIC POWER STATION.</p>
-                    <ul class="activities-detail">
-                        <li>Responsible for project execution to established schedule, monitoring project margin erosion, and ensuring financial milestones during the course of the project are met in a timely manner.</li>
-                        <li>Conduct Phase Gate Review meetings and KOM with customers (internal and overseas).</li>
-                        <li>Present formal monthly project status review updates to Leadership Team.</li>
-                        <li>Responsible for project budget estimations.</li>
-                        <li>Negotiate revisions, changes and additions to contractual agreements with clients, suppliers and subcontractors.</li>
-                        <li>Control the purchase program, engineering development, implementation of quality programs, and erection progress among others.</li>
-                        <li>Direct the purchase of building materials and land acquisitions.</li>
-                        <li>Coordinate supplied materials and shipment of finished products.</li>
-                        <li>Ensure meeting quality goals established by clients.</li>
-                        <li>Control progress and issue progress report to clients.</li>
-                    </ul>
+    <!-- SECCION PRINCIPAL-->
+    <section class="inicio" id="inicio">
+        <div class="contenido-seccion">
+            <header>
+                <div class="nav-bar" onclick="mostrarOcultarMenu()">
+                    <i class="fa-solid fa-bars"></i>
                 </div>
-
-                <div class="experience-detail">
-                    <h3 id="cargo">PROJECT COORDINATOR</h3>
-                    <p>GENERATOR REVAMPING FOR ACARAY POWER STATION (PARAGUAY) AND ELECTROMECHANICAL SUPPLY FOR EL TAMBOLAR HYDROELECTRIC POWER STATIONS (ARGENTINA).</p>
-                    <ul class="activities-detail">
-                        <li>Assist the Project Director controlling the progress of the different projects in execution.</li>
-                        <li>Evaluate the performance and calculate project KPIs.</li>
-                        <li>Prepare operational reports of the department to the Chief Operating Officer.</li>
-                        <li>Control and authorize the dispatch activities.</li>
-                        <li>Claim preparation and negotiation.</li>
-                        <li>Task planning and scheduling for new projects tenders.</li>
-                    </ul>
+                <nav id="nav" class="nav">
+                    <a href="#inicio">Inicio</a>
+                    <a href="#sobremi">Sobre mí</a>
+                    <a href="#habilidades">Habilidades</a>
+                    <a href="#resumen">Resumen</a>
+                    <a href="#contacto">Contacto</a>
+                </nav>
+            </header>
+            <div class="info">
+                <h1>GABRIEL PÉREZ</h1>
+                <h2>INGENIERO INDUSTRIAL, PROJECT MANAGER, PROGRAMADOR WEB</h2>
+                <div class="redes">
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
                 </div>
-
-                <div class="experience-detail">
-                    <h3 id="cargo">CONTRACT ADMINISTRATOR</h3>
-                    <p>ELECTROMECHANICAL SUPPLY FOR TOCOMA, MACAGUA AND VUELTOSA HYDROELECTRIC POWER STATIONS.</p>
-                    <ul class="activities-detail">
-                        <li>Plan and prepare schedules and milestones and monitor progress against established schedules.</li>
-                        <li>Control suppliers and subcontractor on the execution of their scope of work.</li>
-                        <li>Prepare and submit budget estimates.</li>
-                        <li>Material and equipment delivery schedule control.</li>
-                        <li>Prepare and submit cash flows.</li>
-                    </ul>
-                </div>
-
-                <div class="experience-detail">
-                    <h3 id="cargo">COST CONTROLLER</h3>
-                    <p>SLAG RECOVERING AND PROCESSING FOR THE TERNIUM SIDOR STEEL FACTORY.</p>
-                    <ul class="activities-detail">
-                        <li>Perform Cost Control activities.</li>
-                        <li>Prepare and submit project budget estimates for slag recovering process.</li>
-                        <li>Analyze and prepare deviations reports.</li>
-                    </ul>
-                </div>
-
             </div>
-        </section>
-
-        <section id="education">
-            <h2>EDUCATION</h2>
-            <div class="education-list">
-    
-                <div class="education-detail">
-                    <h3 id="cargo">BUSINESS ADMINISTRATION SPECIALIST, MAJORING IN FINANCE</h3>
-                    <p>Universidad Catolica Andres Bello</p>
-                </div>
-    
-                <div class="education-detail">
-                    <h3 id="cargo">INDUSTRIAL ENGINEER</h3>
-                    <p>Universidad Nacional Experimental de Guayana</p>
-                </div>
-                            
+            <div class="foto">
+                <img src="foto_perfil.png" alt="">
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section id="skills">
-            <h2>KEY QUALIFICATIONS</h2>
-            <div class="Skills-information">
-    
-                <ul class="skills-detail">
-                    <li>LANGUAGE: English, Spanish (Native)</li>
-                    <li>MS Office: Word, Excel, Power Point, Outlook.</li>
-                    <li>SAP ERP.</li>
-                    <li>MS Project</li>
-                </ul>
+    <!-- SECCION SOBRE MI -->
+    <section class="sobremi" id="sobremi">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">Sobre Mi</h2>
+            <h3>Detalles Personales</h3>
+
+            <p class="especial">Ingeniero Industrial con conocimiento de ejecucion de proyetos predictivos y agiles</p>
+            <p>Soy Ingeniero industrial con experiencia en el desarrollo de proyectos en diversos sectores de la industria. Desde los inicios de mi experiencia profesional me he desempeñado dentro del área de planificación y control de gestión para empresas contratistas y de ejecución de proyectos de construccion, participando continuamente en la planificación económica y financiera, llevando a cabo la administración de contratos y realizando la planificación y control de la ejecución de proyecto. Mas recientemente he incursionado en el desarrollo de proyectos  Web y en el estudio de metodologías agiles aplicables a estos.</p>
+
+            <div class="fila">
+                <div class="col">
+                    <i class="fa-regular fa-user"></i>
+                    <span class="titulo-detalle">Perfil</span>
+                    <p>Amplia experiencia en la ejecucion de proyectos en diversas industrias</p>
+                </div>
+                <div class="col">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span class="titulo-detalle">Ubicación</span>
+                    <p>Buenos Aires - Argentina</p>
+                </div>
+                <div class="col">
+                    <i class="fa-regular fa-flag"></i>
+                    <span class="titulo-detalle">Intereses</span>
+                    <p>Ejecucion de proyectos fisicos como tambien digitales</p>
+                </div>
             </div>
+        </div>
+    </section>
 
-        </section>
+    <!-- SECCION DE HABILIDADES-->
+    <section class="habilidades" id="habilidades">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">Mis Habilidades</h2>
+            <h3>Me especializo en</h3>
 
-        <section id="contact">
-            <h2>CONTACT INFORMATION</h2>
-            <div class="contact-information">
-    
-                <div class="contact-detail">
-                    <h3 id="cargo">COLOCA TUS DATOS</h3>
-                    <input type="text" placeholder="Ingrese su Correo" class="inputcontacto">
+            <div class="fila">
+                <div class="col">
+                    <span>PROYECTOS PREDICTIVOS</span>
+                    <div class="cont-barra">
+                        <div class="barra" id="predictivo">
+                            <!--se utiliza javascript para hacer interactiva esta parte-->
+                        </div>
+                        <span>100%</span>
+                    </div>
                 </div>
-    
-                <div class="contact-detail">
-                    <h3 id="cargo">ESCRIBE UN MENSAJE</h3>
-                    <textarea placeholder="Escriba un Mensaje" class="inputcontacto"></textarea>
+                <div class="col">
+                    <span>PROYECTOS AGILES</span>
+                    <div class="cont-barra">
+                        <div class="barra" id="agil">
+                            <!--se utiliza javascript para hacer interactiva esta parte-->
+                        </div>
+                        <span>100%</span>
+                    </div>
                 </div>
-                <button>Enviar</button>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <span>PROGRAMACION HTML/CSS</span>
+                    <div class="cont-barra">
+                        <div class="barra" id="html">
+                            <!--se utiliza javascript para hacer interactiva esta parte-->
+                        </div>
+                        <span>100%</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <span>PROGRAMACION JAVASCRIPT</span>
+                    <div class="cont-barra">
+                        <div class="barra" id="javascript">
+                            <!--se utiliza javascript para hacer interactiva esta parte-->
+                        </div>
+                        <span>100%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        </section>
+    <!-- SECCION DE RESUMEN -->
+    <section class="resumen" id="resumen">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">RESUMEN CURRICULAR</h2>
+            <h3>Educación y Experiencia Profesional</h3>
+            <div class="info">
+                <div class="col">
+                    <span class="titulo">EDUCACIÓN</span>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>2006</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">
+                                Profesional de la ingeniería que se encarga de la optimización de los procesos de una empresa. Se trata de un profesional multidisciplinario que combina recursos humanos, materiales y sistemas financieros y de administración para aumentar la productividad de una organización.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Ingeniero Industrial</h4>
+                                <p>Universidad Nacional Autónoma</p>
+                            </td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>2023</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">
+                                Especialista que posee los conocimientos necesarios para la creación y mantenimiento de sitios web. En términos generales, el desarrollador web se ocupa de diseñar los sitios y desarrollar sus funciones, esto mediante lenguajes de programación y softwares especializados-
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Programador WEB</h4>
+                                <p>Universidad Nacional Autónoma</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col">
+                    <span class="titulo">EXPERIENCIA LABORAL</span>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>2015 - Actual</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">
+                                Director de proyectos predictivos y agiles.
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>IMPSA</h4>
+                                <p>Project Manager</p>
+                            </td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>2009 - 2015</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">
+                                Responsable del control de subcontratistas.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>AESA</h4>
+                                <p>Administrador de Contratos</p>
+                            </td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>2006 - 2009</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">
+                                Responsable de control de gestión.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>TECHINT</h4>
+                                <p>Controlador de Costos y Gestión</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    </main>
-    <footer></footer>
+    <!-- SECCION DE CONTACTO -->
+    <section class="contacto" id="contacto">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">CONTACTO</h2>
+            <h3>Para contactos puedes ubicarme en:</h3>
 
+            <div class="fila">
+                <div class="col">
+                    <h2>
+                        <i class="fa-solid fa-phone"></i> Teléfono
+                    </h2>
+                    <span class="info-contacto"> 11 88002221</span>
+                </div>
+                <div class="col">
+                    <h2>
+                        <i class="fa-regular fa-envelope"></i> Email
+                    </h2>
+                    <span class="info-contacto"> cuentanueva@email.com</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
     
 </body>
 </html>
